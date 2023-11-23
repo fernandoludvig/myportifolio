@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    background-color: #fff474;
+    
+}
+
+.home-title {
+    font-family:Lato, Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 20px;
+    color:black;
+    text-align: center;
+}
+p{
+    text-align: justify; 
+    line-height: 200%; 
+    font-family: Roboto, Arial, Helvetica;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0;
+    font-size:16px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Center the navigation horizontally */
+}
+nav a {
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: white;
+    color: #d9c2a3;
+}
+body {
+    background-color: #fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color:#fff474;
+    color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: blue;
+    text-decoration: none;
+}
+footer a:hover{
+    color: rgb(0, 0, 0);
+}
+footer p {
+    font-size: 1.2em;
+} 
+footer p a:hover {
+    text-decoration: underline;
+} 
+footer .social img{
+    padding-top: 15px;
+}
+.about-card, .skills-card, .experiences-card{  
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main{
+    display: grid; 
+    grid-template-columns: repeat(10, 1fr);
+}
+.about-card{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.skills-card{
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.experiences-card{
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 100%;
+    height: 70%;
+    display: block;
+    margin: 0px auto;
+
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+h2 {
+    
+    font-size: 22px;
+    text-align: center;
+}
